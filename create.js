@@ -13,8 +13,6 @@ export async function main(event, context) {
       attachment: data.attachment,
       createdAt: Date.now()
     }
-==
-
   };
 
   try {
